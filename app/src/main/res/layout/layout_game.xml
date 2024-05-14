@@ -39,97 +39,85 @@ tools:context=".MainGame">
         app:layout_constraintHorizontal_bias="0.867"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602"
-        app:srcCompat="@drawable/apple"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="146dp" />
+        app:layout_constraintVertical_bias="0.305"
+        app:srcCompat="@drawable/apple" />
 
     <ImageView
         android:id="@+id/grape1"
         android:layout_width="63dp"
         android:layout_height="87dp"
-        app:srcCompat="@drawable/grape"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.867"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="239dp" />
+        app:layout_constraintVertical_bias="0.159"
+        app:srcCompat="@drawable/grape" />
 
     <ImageView
         android:id="@+id/kiwi1"
         android:layout_width="68dp"
         android:layout_height="86dp"
-        app:srcCompat="@drawable/kiwi"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="303dp"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141"/>
+        app:layout_constraintVertical_bias="0.162"
+        app:srcCompat="@drawable/kiwi" />
 
     <ImageView
         android:id="@+id/mango1"
         android:layout_width="68dp"
         android:layout_height="86dp"
-        app:srcCompat="@drawable/mango"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="331dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintHorizontal_bias="0.638"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141"/>
+        app:layout_constraintVertical_bias="0.161"
+        app:srcCompat="@drawable/mango" />
 
     <ImageView
         android:id="@+id/peach1"
         android:layout_width="68dp"
         android:layout_height="86dp"
-        app:srcCompat="@drawable/peach"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="251dp"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.638"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141"/>
+        app:layout_constraintVertical_bias="0.3"
+        app:srcCompat="@drawable/peach" />
 
     <ImageView
         android:id="@+id/pineapple1"
         android:layout_width="68dp"
         android:layout_height="86dp"
-        app:srcCompat="@drawable/pineapple"
-        android:onClick="onClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.865"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141"/>
-
-    <ImageView
-        android:id="@+id/strawberry1"
-        android:layout_width="68dp"
-        android:layout_height="86dp"
-        app:srcCompat="@drawable/strawberry"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="236dp"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.286"/>
+        app:layout_constraintVertical_bias="0.299"
+        app:srcCompat="@drawable/pineapple" />
+
+    <ImageView
+        android:id="@+id/strawberry1"
+        android:layout_width="68dp"
+        android:layout_height="86dp"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161"
+        app:srcCompat="@drawable/strawberry" />
 
     <ImageView
         android:id="@+id/watermelon1"
@@ -150,46 +138,40 @@ tools:context=".MainGame">
         android:id="@+id/apple2"
         android:layout_width="68dp"
         android:layout_height="86dp"
-        app:srcCompat="@drawable/apple"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="315dp"
-        android:onClick="onClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.623"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285"/>
-
-    <ImageView
-        android:id="@+id/grape2"
-        android:layout_width="68dp"
-        android:layout_height="86dp"
-        app:srcCompat="@drawable/grape"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="270dp"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285"/>
+        app:layout_constraintVertical_bias="0.601"
+        app:srcCompat="@drawable/apple" />
+
+    <ImageView
+        android:id="@+id/grape2"
+        android:layout_width="68dp"
+        android:layout_height="86dp"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@drawable/grape" />
 
     <ImageView
         android:id="@+id/kiwi2"
         android:layout_width="62dp"
         android:layout_height="92dp"
-        app:srcCompat="@drawable/kiwi"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="372dp"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436" />
+        app:layout_constraintVertical_bias="0.463"
+        app:srcCompat="@drawable/kiwi" />
 
     <ImageView
         android:id="@+id/mango2"
@@ -265,6 +247,13 @@ tools:context=".MainGame">
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.602"/>
+    <TextView
+        android:id="@+id/WelcomeMsg"
+        android:layout_width="6dp"
+        android:layout_height="3dp"
+        android:text=" "
+        app:layout_editor_absoluteX="191dp"
+        app:layout_editor_absoluteY="313dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
