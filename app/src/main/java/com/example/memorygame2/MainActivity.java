@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                                 name.setText(auth.getCurrentUser().getDisplayName());
                                 mail.setText(auth.getCurrentUser().getEmail());
                                 Toast.makeText(MainActivity.this, "Sign in successfully!", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(MainActivity.this,MainActivity.class);
+                                Intent intent = new Intent(MainActivity.this,MainGame.class);
                                 intent.putExtra("USERNAME",auth.getCurrentUser().getDisplayName());
 
                                 startActivity(intent);
